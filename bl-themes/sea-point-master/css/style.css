@@ -1,0 +1,689 @@
+/*
+Domain: https://www.viktorgordienko.com/
+Author: Viktor Gordienko
+Description: Simple and minimalistic theme
+Version: 1.1
+/* --------------------------------------------------------------
+/* Basis
+-------------------------------------------------------------- */
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    /* Margin bottom for footer height */
+
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+}
+
+#page {
+    z-index: 10;
+    position: relative;
+    opacity: 0;
+    margin-top: 20px;
+    
+    transition: all 1s ease 1s;
+    -webkit-transition: all 1s ease 1s;
+    -moz-transition: all 1s ease 1s;
+    -o-transition: all 1s ease 1s;
+}
+
+#page.displayed {
+    opacity: 1;
+    margin: 0;
+}
+
+hr {
+    height: 1px;
+    background-color: #e9e9e9;
+    border: 0px;
+}
+
+/* --------------------------------------------------------------
+/* Typography
+-------------------------------------------------------------- */
+p {
+    color: #666666;
+    margin-bottom: 34px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+}
+
+p img {
+
+}
+article h2 {
+    color:#00e5fe;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul, ol, li {
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+}
+
+li {
+    margin-left: 10px;
+}
+
+.page-link {
+    color: #000;
+}
+
+blockquote {
+    margin: 0px 50px 0px 50px;
+    padding: 30px 30px 30px 50px;
+    font-weight: 300;
+    border-left: 5px solid #dfdfdf;
+    background: #f4f4f4;
+    color: #999999;
+    font-size: 20px;
+    font-style: oblique;
+    line-height: 24px;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+preformatted {
+    font-family: monospace;
+    white-space: pre;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #0ff;
+    transition: 500ms ease;
+    -moz-transition: 500ms ease;
+    -webkit-transition: 500ms ease;
+    -ms-transition: 500ms ease;
+    -o-transition: 500ms ease;
+    padding-bottom: 4px;
+}
+
+a:hover {
+    opacity:0.8;
+    text-decoration: none;
+    color:#fff;
+    background-color: none;
+}
+
+
+textarea {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+/* --------------------------------------------------------------
+/* Image shadows (uncomment this if you aren't going to have any transparent/light images)
+--------------------------------------------------------------
+img {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+*/
+/* --------------------------------------------------------------
+/* Header
+-------------------------------------------------------------- */
+header {
+    width: 100%;
+    top: 0;
+}
+
+#nav {
+    float: right;
+}
+
+#nav ul li {
+    float: left;
+    list-style: none;
+}
+
+
+  
+  
+  
+  
+
+#nav ul li a {
+    display: block;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: #666;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+#nav ul li a:hover {
+    color:#00ffff;
+}
+
+header .logo {
+    height: 90px;
+    margin-top: 25px;
+    float: left;
+    position: absolute;
+    transition: 500ms ease;
+    -moz-transition: 500ms ease;
+    -webkit-transition: 500ms ease;
+    -ms-transition: 500ms ease;
+    -o-transition: 500ms ease;
+}
+
+header img:hover {
+    opacity: 0.7;
+}
+
+header .instagram-header-icon {
+    height: 15px;
+    margin-top: 8px;
+}
+
+/*
+#nav ul li .selected {
+    border-bottom: 1px solid #bbbbbb;
+}
+*/
+/* --------------------------------------------------------------
+/* Hero Image
+-------------------------------------------------------------- */
+.hero {
+    padding: 5% 10% 10% 0%;
+    height:200px;
+    
+    background: url(../img/background-hero.jpg) center;
+    min-height: 100%;
+    background-color: #c7c7c7;
+    background-size: 100%;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+}
+
+.hero-hidden {
+    display: none;
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
+}
+
+p.hero-text {
+    font-size: 24px;
+}
+.post-title{
+    color:#00e5fe;
+}
+.hero-image-home {
+    width: 100%;
+    height: 500px;
+    background-color: #f3f3f3;
+    background-image: url('https://images-assets.nasa.gov/image/PIA13845/PIA13845~orig.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero-image-menu {
+    width: 100%;
+    height: 350px;
+    background-color: #f3f3f3;
+    background-image: url('../img/hero-image-menu.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero-image-gallery {
+    width: 100%;
+    height: 350px;
+    background-color: #f3f3f3;
+    background-image: url('../img/hero-image-gallery.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero-image-contact {
+    width: 100%;
+    height: 350px;
+    background-color: #f3f3f3;
+    background-image: url('../img/hero-image-contact.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* --------------------------------------------------------------
+/* Main
+-------------------------------------------------------------- */
+.main {
+    width: 660px;
+    margin: 120px auto;
+    text-align: justify;
+}
+
+/* --------------------------------------------------------------
+/* Table
+-------------------------------------------------------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+}
+
+th, td {
+    padding: 10px 20px 10px 20px;
+    height: 40px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+th {
+    color: #666;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+td:nth-of-type(even) {
+    text-align: right;
+    padding: 0 25px 0 20px;
+    min-width: 90px;
+}
+
+/* --------------------------------------------------------------
+/* Gallery (will leave that for ver. 1.1)
+-------------------------------------------------------------- */
+.example-image {
+    width: 150px;
+    height: 150px;
+}
+
+.example-image-link {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/*
+.example-image-link:nth-of-type(4n+0) {
+   margin-right: 0px;
+}
+*/
+/* --------------------------------------------------------------
+/* Contact Form
+-------------------------------------------------------------- */
+form input, form textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 14px;
+    font-size: 12px;
+    border-radius: 1px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    transition: 500ms ease;
+    -moz-transition: 500ms ease;
+    -webkit-transition: 500ms ease;
+    -ms-transition: 500ms ease;
+    -o-transition: 500ms ease;
+}
+
+form input:active, form textarea:active, form input:focus, form textarea:focus {
+    border: 1px solid #343638;
+    outline: none;
+    transition: 500ms ease;
+    -moz-transition: 500ms ease;
+    -webkit-transition: 500ms ease;
+    -ms-transition: 500ms ease;
+    -o-transition: 500ms ease;
+}
+
+form textarea {
+    height: 100px;
+    padding: 10px 0 0 14px;
+    transition: 500ms ease;
+    -moz-transition: 500ms ease;
+    -webkit-transition: 500ms ease;
+    -ms-transition: 500ms ease;
+    -o-transition: 500ms ease;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+form textarea:focus {
+    height: 200px;
+    transition: 500ms ease;
+    -moz-transition: 500ms ease;
+    -webkit-transition: 500ms ease;
+    -ms-transition: 500ms ease;
+    -o-transition: 500ms ease;
+}
+
+form input:last-of-type {
+    color: #343638;
+    padding-left: 14px;
+    display: block;
+    width: 300px;
+    border: 1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    height: 40px;
+    line-height: 36px;
+    transition: 500ms ease;
+    -moz-transition: 500ms ease;
+    -webkit-transition: 500ms ease;
+    -ms-transition: 500ms ease;
+    -o-transition: 500ms ease;
+}
+
+form input:last-of-type:hover, form input:last-of-type:focus, form input:last-of-type:active {
+    background-color: white;
+    color: #000;
+    border: 1px solid #c7c7c7;
+    cursor: pointer;
+    transition: 500ms ease;
+    -moz-transition: 500ms ease;
+    -webkit-transition: 500ms ease;
+    -ms-transition: 500ms ease;
+    -o-transition: 500ms ease;
+}
+
+input {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+/* --------------------------------------------------------------
+/* Footer
+-------------------------------------------------------------- */
+footer {
+    position: absolute;
+    width: 100%;
+    padding: 10px 0 25px;
+    height: 60px;
+    text-align: center;
+    color: #aaa;
+    bottom: 0;
+}
+
+footer .copyright {
+    font-size: 14px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    width: 300px;
+    background-color: #e9e9e9;
+    border-color: #e9e9e9;
+    color: #c7c7c7
+}
+
+.btn-primary:active,.btn-primary:focus, .btn-primary:hover {
+    color: #c7c7c7;
+    background-color: #f3f3f3!important;
+    border-color: #f3f3f3!important
+}
+
+/*
+*/
+/* --------------------------------------------------------------
+/* Responsive / Screen under 720px
+-------------------------------------------------------------- */
+@media screen and (max-width: 720px) {
+    /* --------------------------------------------------------------
+/* Header Responsive
+-------------------------------------------------------------- */header {
+        padding-left: 30px;
+    }
+
+    #nav {
+        width: 100%;
+        top: 132px;
+        position: absolute;
+        right: 0;
+    }
+
+    #nav:before {
+        font-family: sans-serif;
+        font-style: normal;
+        content: '\2630';
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: -82px;
+        line-height: 27px;
+        font-size: 20px;
+        color: #323232;
+        cursor: pointer;
+    }
+
+    #nav ul {
+        background-color: #343638;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #nav ul li {
+        float: none;
+    }
+
+    #nav ul li a {
+        line-height: 60px;
+        margin: 0;
+        color: #fff;
+        z-index: 10;
+        height: 60px;
+        transition: 500ms ease;
+        -moz-transition: 500ms ease;
+        -webkit-transition: 500ms ease;
+        -ms-transition: 500ms ease;
+        -o-transition: 500ms ease;
+    }
+
+  
+
+    #nav ul li a:hover {
+        background-color: #fff;
+        color: #00e5fe;
+        text-decoration: none;
+        opacity: 1;
+    }
+
+    #nav ul {
+        display: block;
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: 500ms ease-in-out;
+        -moz-transition: 500ms ease-in-out;
+        -webkit-transition: 500ms ease-in-out;
+        -ms-transition: 500ms ease-in-out;
+        -o-transition: 500ms ease-in-out;
+        transform: perspective(0) rotate3d(0, 0, 0, 0);
+        -moz-transform: perspective(0) rotate3d(1, 0, 0, -90deg);
+        -ms-transform: perspective(0) rotate3d(0, 0, 0, 0);
+        -o-transform: perspective(0) rotate3d(0, 0, 0, 0);
+        -webkit-transform: perspective(0) rotate3d(1, 0, 0, -90deg);
+        transform-origin: 100% 0%;
+        -moz-transform-origin: 100% 0%;
+        -webkit-transform-origin: 100% 0%;
+        -ms-transform-origin: 100% 0%;
+        -o-transform-origin: 100% 0%;
+    }
+
+    #nav.open ul {
+        height: auto;
+        opacity: 1;
+        transform: translateY(8px);
+        -ms-transform: translateY(8px);
+        -o-transform: translateY(8px);
+        -moz-transform: translateY(8px);
+        -webkit-transform: translateY(8px);
+    }
+
+    #nav ul li .selected {
+        border-bottom: 0px;
+    }
+
+    /* --------------------------------------------------------------
+/* Hero Image Responsive
+-------------------------------------------------------------- */
+    .hero-image-home, .hero-image-menu, .hero-image-gallery, .hero-image-contact {
+        height: 300px;
+    }
+
+    /* --------------------------------------------------------------
+/* Main Responsive
+-------------------------------------------------------------- */
+    .main {
+        padding: 0 30px;
+        width: auto;
+    }
+
+    /* --------------------------------------------------------------
+/* Gallery
+-------------------------------------------------------------- */
+    .example-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .example-image-link, .example-image-link:nth-of-type(4n+0) {
+        width: 48%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-right: 4%;
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .example-image-link:nth-of-type(even) {
+        margin-right: 0px;
+    }
+}
+
+/*
+*/
+/* --------------------------------------------------------------
+/* Dark mode
+-------------------------------------------------------------- */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #212529;
+    }
+    textarea {
+        background-color: #343a40;
+        color: #999999;
+        border-color: #999999;
+    }
+    a, p, pre, h1, h2, h3, h4, h5, h6, ul, ol, li, .btn {
+        color: #dee2e6;
+    }
+    .btn:hover {
+        color:#00e5fe;
+    }
+    .navbar-light .navbar-brand {
+        color: #f8f9fa;
+        font-size: 1.8rem;
+        letter-spacing: 0.2rem;
+    }
+    .navbar-light .navbar-brand:hover {
+        color:#00e5fe;
+        font-size: 1.8rem;
+    }
+    .navbar-light .navbar-toggler {
+        color: #f8f9fa;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #f8f9fa;
+        font-size: 1.3rem;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color:#00e5fe;
+        font-size: 1.3rem;
+    }
+    
+    blockquote {
+        background: #343a40;
+        color: #999999;
+    }
+    .lightboxOverlay {
+        background-color: black !important;
+    }
+    .lb-outerContainer {
+        background-color: black !important;
+    }
+    .fa-inverse {
+        color: #212529 !important;
+    }
+    img {
+        opacity: .75;
+        transition: opacity .5s ease-in-out;
+    }
+    img:hover {
+        opacity: 1;
+    }
+}
+.btn-outline1 {
+   
+   
+    background-color: #212529;
+    border-color:#00e5fe;
+    color:#00e5fe;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border-radius: 0;
+  }
+.post-meta{
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}

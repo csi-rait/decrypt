@@ -1,0 +1,42 @@
+img {
+	max-width: 100%;
+}
+.hidden{
+    text-indent:-9999px;
+    visibility:hidden;
+    display:none
+}
+.text-left{
+    text-align:left !important
+}
+.text-center{
+    text-align:center !important
+}
+.text-right{
+    text-align:right !important
+}
+.float-right{
+    float:right !important
+}
+.float-left{
+    float:left !important
+}
+.pagination{
+    position:relative;
+    text-align:center
+}
+.newer-posts,.older-posts{
+    position:absolute;
+    white-space:pre
+}
+.newer-posts{
+    left:0
+}
+.older-posts{
+    right:0
+}
+@media screen and (max-width: 660px){
+    .page-number{
+        display:none
+    }
+}

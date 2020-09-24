@@ -1,0 +1,55 @@
+#nav-wrap > a::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+}
+
+h2.plugin-label {
+    font-size: 15px;
+    font-family: "opensans-bold", sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.plugin {
+    margin-bottom: 30px;
+}
+
+.plugin-tags .plugin-content {
+    margin: 18px 0 24px -16px;
+    padding: 0;
+}
+
+.plugin-tags a {
+    font-size: 12px;
+    font-family: "opensans-bold", sans-serif;
+    line-height: 24px;
+    display: inline-block;
+    float: left;
+    margin: 0 0 12px 12px;
+    padding: 6px 15px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #E9EBEE;
+    text-decoration: none;
+    letter-spacing: .5px;
+    color: #778888;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border-radius: 3px;
+}
+
+.plugin-tags a:hover {
+   color: #fff;
+   background: #93B876;
+}
+
+.meta-empty {
+   height: 24px;
+   width: 100%;
+}

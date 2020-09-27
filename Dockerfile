@@ -1,6 +1,6 @@
 FROM centos:centos7
 
-ENV bludit_content /usr/share/nginx/html/bl-content
+ENV decrypt_contents /usr/share/nginx/html/bl-content
 
 ENV nginx_path /etc/nginx
 ENV nginx_conf ${nginx_path}/nginx.conf
@@ -51,10 +51,10 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log && \
 
 # Bludit installation
 WORKDIR /tmp
-RUN git clone https://github.com/someshkoli/bludit.git && \
-	mv ./bludit/* /usr/share/nginx/html && \
-	mkdir ${bludit_content} && \
-	chmod 755 ${bludit_content} && \
+RUN git clone https://github.com/csi-rait/decrypt.git && \
+	mv ./decrypt/* /usr/share/nginx/html && \
+	mkdir ${decrypt_contents} && \
+	chmod 755 ${decrypt_contents} && \
 	chown -R nginx:nginx /usr/share/nginx/html && \
 	sed -i "s/'DEBUG_MODE', FALSE/'DEBUG_MODE', TRUE/g" /usr/share/nginx/html/bl-kernel/boot/init.php
 

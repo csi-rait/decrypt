@@ -222,7 +222,7 @@ header .instagram-header-icon {
 /* Hero Image
 -------------------------------------------------------------- */
 .hero {
-    padding: 5% 10% 10% 0%;
+    padding:2% 10% 10% 10%;
     height:200px;
     
     background: url(../img/background-hero.jpg) center;
@@ -620,6 +620,10 @@ footer .copyright {
     body {
         background: #212529;
     }
+    
+    p{
+        color:#fff;
+    }
     textarea {
         background-color: #343a40;
         color: #999999;
@@ -686,4 +690,23 @@ footer .copyright {
 .post-meta{
     font-weight: 600;
     letter-spacing: 0.4rem;
+}
+
+/* CARDS  ----------------------------------------------------------- */
+.card{
+    background-color: #212529;
+}
+.card-img-top{
+    border-radius: 50%;
+    padding:10% 15%;
+}
+.card-title{
+    color:cyan;
+}
+.card-text{
+    color: white;
+}
+
+.btn-twitter{
+    font-size: 1.5rem;
 }

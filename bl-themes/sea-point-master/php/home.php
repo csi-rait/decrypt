@@ -4,7 +4,7 @@ Image hero - add the image to /img and name it "background-hero.jpg" to make thi
 <?php if (file_exists(THEME_DIR.'img/background-hero.jpg')): ?>
 <div class="page-cover-image py-6 mb-4" >
     <div class="hero">
-        <h1 class="hero-text"><img src="https://media.discordapp.net/attachments/302845093759680514/758339795956138034/100X100.png?width=677&height=677" height="40" width="40"></img>  <?php echo $site->title() ?></h1>
+        <h1 class="hero-text"><a href=""><img src="https://media.discordapp.net/attachments/302845093759680514/758339795956138034/100X100.png?width=677&height=677" height="120" width="120"></img></a></h1>
         <p class="hero-text"><?php echo $site->description() ?></p>
     </div>
 </div>

@@ -1,0 +1,70 @@
+<h4 style="color: white; letter-spacing: 0.01rem; font-weight: 400;">A technical blog by CSI-RAIT</h4>
+<h5 style="color: white; letter-spacing: 0.01rem; font-weight: 400;">Decrypt is a platform for RAITians to navigate their way around new and upcoming technologies. The blogs are specially curated to be informative for both tech newbies and geeks. Submissions are open at (?)</h5>
+<p></p>
+<h4>Meet the curators !</h4>
+<!-- Required meta tags -->
+<p></p>
+<!-- Bootstrap CSS -->
+<p></p>
+<section id="gallery">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 mb-6">
+<div class="card"><img class="card-img-top" src="https://cdn.discordapp.com/attachments/759797843216171038/759801190803439626/Liam-Hemsworth-Most-Handsome-Australian-Actors.jpg" alt="">
+<div class="card-body">
+<h3 class="card-title">Vignesh Vijaykumar</h3>
+<h5 class="card-subtitle">Editorial Head,CSI</h5>
+</div>
+</div>
+</div>
+<div class="col-lg-4 mb-6">
+<div class="card"><img class="card-img-top" src="https://cdn.discordapp.com/attachments/759797843216171038/759801196952158218/henry1.jpg" alt="">
+<div class="card-body">
+<h3 class="card-title">Rajat Kapgate</h3>
+<h5 class="card-subtitle">Research Head,CSI</h5>
+&lt;</div>
+</div>
+</div>
+<div class="col-lg-4 mb-6">
+<div class="card"><img class="card-img-top" src="https://cdn.discordapp.com/attachments/759797843216171038/759801201545707550/chris1.jpg" alt="">
+<div class="card-body">
+<h3 class="card-title">Makarand Madhavi</h3>
+<h5 class="card-subtitle">Design Head,CSI</h5>
+</div>
+</div>
+</div>
+<div class="col-lg-4 mb-6">
+<div class="card"><img class="card-img-top" src="https://cdn.discordapp.com/attachments/759797843216171038/759797889089142804/anneh.png" alt="">
+<div class="card-body">
+<h3 class="card-title">Anushka Pansare</h3>
+<h5 class="card-subtitle">Co-Editor in Chief,CSI</h5>
+</div>
+</div>
+</div>
+<div class="col-lg-4 mb-6">
+<div class="card"><img class="card-img-top" src="https://cdn.discordapp.com/attachments/759797843216171038/759801190329745408/anneh2.jpg" alt="">
+<div class="card-body">
+<h3 class="card-title">Ovee Jawdekar</h3>
+<h5 class="card-subtitle">Co-Editor in Chief, CSI</h5>
+</div>
+</div>
+</div>
+<div class="col-lg-4 mb-6">
+<div class="card"><img class="card-img-top" src="https://cdn.discordapp.com/attachments/759797843216171038/759801206083420200/anneh3.jpg" alt="">
+<div class="card-body">
+<h3 class="card-title">Mukulika Pahari</h3>
+<h5 class="card-subtitle">Co-Editor in Chief,CSI</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Optional JavaScript -->
+<p></p>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<p>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</p>

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light" id="mainNav"> <!-- add fixed-top to the style for fun-->
-    <div class="container">
-        <a class="navbar-brand image-responsive" href="#">
+    <div class="container"> 
+        <a class="navbar-brand image-responsive" href="">
             <img src="https://media.discordapp.net/attachments/302845093759680514/758339795956138034/100X100.png?width=677&height=677" width="40" height="40" alt="">
         </a>
         <a class="navbar-brand" href="<?php echo $site->url() ?>"><?php echo $site->title() ?></a>

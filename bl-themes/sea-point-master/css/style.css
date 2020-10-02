@@ -616,67 +616,67 @@ footer .copyright {
 /* --------------------------------------------------------------
 /* Dark mode
 -------------------------------------------------------------- */
-@media (prefers-color-scheme: dark) {
-    body {
-        background: #212529;
-    }
-    
-    p{
-        color:#fff;
-    }
-    textarea {
-        background-color: #343a40;
-        color: #999999;
-        border-color: #999999;
-    }
-    a, pre, h1, h2, h3, h4, h5, h6, ul, ol, li, .btn {
-        color: white;
-    }
-    .btn:hover {
-        color:#00e5fe;
-    }
-    .navbar-light .navbar-brand {
-        color: #f8f9fa;
-        font-size: 1.8rem;
-        letter-spacing: 0.2rem;
-    }
-    .navbar-light .navbar-brand:hover {
-        color:#00e5fe;
-        font-size: 1.8rem;
-    }
-    .navbar-light .navbar-toggler {
-        color: #f8f9fa;
-    }
-    .navbar-light .navbar-nav .nav-link {
-        color: #f8f9fa;
-        font-size: 1.3rem;
-    }
-    .navbar-light .navbar-nav .nav-link:hover {
-        color:#00e5fe;
-        font-size: 1.3rem;
-    }
-    
-    blockquote {
-        background: #343a40;
-        color: #999999;
-    }
-    .lightboxOverlay {
-        background-color: black !important;
-    }
-    .lb-outerContainer {
-        background-color: black !important;
-    }
-    .fa-inverse {
-        color: #212529 !important;
-    }
-    img {
-        opacity: .75;
-        transition: opacity .5s ease-in-out;
-    }
-    img:hover {
-        opacity: 1;
-    }
+
+body {
+    background: #212529;
 }
+
+p{
+    color:#fff;
+}
+textarea {
+    background-color: #343a40;
+    color: #999999;
+    border-color: #999999;
+}
+a, pre, h1, h2, h3, h4, h5, h6, ul, ol, li, .btn {
+    color: white;
+}
+.btn:hover {
+    color:#00e5fe;
+}
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+}
+.navbar-light .navbar-brand:hover {
+    color:#00e5fe;
+    font-size: 1.8rem;
+}
+.navbar-light .navbar-toggler {
+    color: #f8f9fa;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+    font-size: 1.3rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#00e5fe;
+    font-size: 1.3rem;
+}
+
+blockquote {
+    background: #343a40;
+    color: #999999;
+}
+.lightboxOverlay {
+    background-color: black !important;
+}
+.lb-outerContainer {
+    background-color: black !important;
+}
+.fa-inverse {
+    color: #212529 !important;
+}
+img {
+    opacity: .75;
+    transition: opacity .5s ease-in-out;
+}
+img:hover {
+    opacity: 1;
+}
+
 .btn-outline1 {
    
    

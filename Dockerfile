@@ -54,8 +54,8 @@ WORKDIR /tmp
 RUN git clone https://github.com/csi-rait/decrypt.git -b docker && \
 	mv ./decrypt/* /usr/share/nginx/html && \
 	mkdir ${decrypt_contents} && \
-	chmod 755 ${decrypt_contents} && \
 	chown -R nginx:nginx /usr/share/nginx/html && \
+	chmod 755 ${decrypt_contents} && \
 	sed -i "s/'DEBUG_MODE', FALSE/'DEBUG_MODE', TRUE/g" /usr/share/nginx/html/bl-kernel/boot/init.php
 
 EXPOSE 80

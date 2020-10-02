@@ -11,7 +11,7 @@ shell:
 	docker run -it decrypt bash
 
 clean:
-	rm -rf ~/decrypt; docker container rm -f decrypt; docker image rm -f decrypt
+	docker container rm -f decrypt; docker image rm -f decrypt
 
 restart:
 		echo "restarting decrypt"

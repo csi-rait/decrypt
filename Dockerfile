@@ -51,7 +51,7 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log && \
 
 # Bludit installation
 WORKDIR /tmp
-RUN git clone https://github.com/csi-rait/decrypt.git -b docker && \
+RUN git clone https://github.com/csi-rait/decrypt.git && \
 	mv ./decrypt/* /usr/share/nginx/html && \
 	mkdir ${decrypt_contents} && \
 	chown -R nginx:nginx /usr/share/nginx/html && \

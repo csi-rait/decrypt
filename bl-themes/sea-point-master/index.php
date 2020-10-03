@@ -9,6 +9,8 @@
         
 <!-- Navigation -->
 <?php include(THEME_DIR_PHP.'navbar.php') ?>
+
+
         
 <!-- Main Content -->
 <?php
@@ -18,6 +20,8 @@ include(THEME_DIR_PHP.'page.php');
 include(THEME_DIR_PHP.'home.php');
 }
 ?>
+
+
         
 <!-- Footer -->
 <?php include(THEME_DIR_PHP.'footer.php') ?>

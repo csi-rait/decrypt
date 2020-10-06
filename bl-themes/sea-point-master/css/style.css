@@ -635,11 +635,7 @@ a, pre, h1, h2, h3, h4, h5, h6, ul, ol, li, .btn {
 .btn:hover {
     color:#00e5fe;
 }
-.navbar-light .navbar-brand {
-    color: #f8f9fa;
-    font-size: 1.8rem;
-    letter-spacing: 0.1rem;
-}
+
 .navbar-light .navbar-brand:hover {
     color:#00e5fe;
     font-size: 1.8rem;
@@ -678,8 +674,6 @@ img:hover {
 }
 
 .btn-outline1 {
-   
-   
     background-color: #212529;
     border-color:#00e5fe;
     color:#00e5fe;
@@ -687,10 +681,7 @@ img:hover {
     letter-spacing: 0.05em;
     border-radius: 0;
   }
-.post-meta{
-    font-weight: 500;
-    letter-spacing: 0.2rem;
-}
+
 
 /* CARDS  ----------------------------------------------------------- */
 .card{
@@ -707,11 +698,17 @@ img:hover {
     color: white;
 }
 
-.btn-twitter{
-    font-size: 1.5rem;
-}
 
 .container{
     width:90%;
 }
 
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+.post-meta{
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}

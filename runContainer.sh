@@ -1,11 +1,11 @@
 #!/bin/bash
-STORAGE=contents
+STORAGE=decrypt_contents
 
 if test ! -d "$STORAGE" ; then
   mkdir $STORAGE
 fi
-
+echo $STORAGE
 docker run --name decrypt \
-    -p 8000:80 \
-    -v $STORAGE:/usr/share/nginx/html/bl-content \
+    -p 80:80 \
+    -v "$STORAGE":/usr/share/nginx/html/bl-content \
     -d decrypt

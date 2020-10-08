@@ -27,7 +27,7 @@ body {
     /* Margin bottom for footer height */
 
     color: #666666;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 300;
@@ -63,27 +63,34 @@ hr {
 p {
     color: #666666;
     margin-bottom: 34px;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 26px;
     font-weight: 300;
     letter-spacing: 0.6px;
 }
 
-p img {
+/*p img {
 
-}
+}*/
+
 article h2 {
     color:#00e5fe;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #666666;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+article{
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 ul, ol, li {
     color: #666666;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 300;
@@ -138,6 +145,9 @@ a:hover {
     background-color: none;
 }
 
+.navbar-brand{
+    font-family: 'Audiowide', cursive;
+}
 
 textarea {
     border-radius: 10px;
@@ -238,6 +248,7 @@ header .instagram-header-icon {
 }
 
 .hero-text {
+    font-style: oblique;
     color: white;
     text-align: center;
 }
@@ -446,8 +457,8 @@ input {
 footer {
     position: absolute;
     width: 100%;
-    padding: 10px 0 25px;
-    height: 60px;
+    padding-top: 3rem;
+    height: 30px;
     text-align: center;
     color: #aaa;
     bottom: 0;
@@ -588,6 +599,14 @@ footer .copyright {
         padding: 0 30px;
         width: auto;
     }
+    /* --------------------------------------------------------------
+/* Article
+-------------------------------------------------------------- */
+    article{
+        padding-top: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 
     /* --------------------------------------------------------------
 /* Gallery
@@ -670,7 +689,7 @@ blockquote {
     color: #212529 !important;
 }
 img {
-    opacity: .75;
+    opacity: 1;
     transition: opacity .5s ease-in-out;
 }
 img:hover {
@@ -695,6 +714,7 @@ img:hover {
 /* CARDS  ----------------------------------------------------------- */
 .card{
     background-color: #212529;
+    margin: 1rem;
 }
 .card-img-top{
     border-radius: 50%;
@@ -702,6 +722,7 @@ img:hover {
 }
 .card-title{
     color:cyan;
+    font-family: 'Raleway', sans-serif;
 }
 .card-text{
     color: white;

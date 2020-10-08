@@ -44,27 +44,22 @@ class pluginCategories extends Plugin {
 		global $categories;
 
 		// HTML for sidebar
-		$html  = '<div class="plugin plugin-categories">';
-		$html .= '<h2 class="plugin-label">'.$this->getValue('label').'</h2>';
-		$html .= '<div class="plugin-content">';
-		$html .= '<ul>';
+		
 
 		// By default the database of categories are alphanumeric sorted
 		foreach ($categories->db as $key=>$fields) {
 			$count = count($fields['list']);
 			if (!$this->getValue('hideCero') || $count>0) {
-				$html .= '<li>';
-				$html .= '<a href="'.DOMAIN_CATEGORIES.$key.'">';
+				
+				$html .= '<a id="subcat" class="dropdown-item" href="'.DOMAIN_CATEGORIES.$key.'">';
 				$html .= $fields['name'];
 				$html .= ' ('.count($fields['list']).')';
 				$html .= '</a>';
-				$html .= '</li>';
+				
 			}
 		}
 
-		$html .= '</ul>';
- 		$html .= '</div>';
- 		$html .= '</div>';
+		
 
 		return $html;
 	}

@@ -28,9 +28,10 @@ body {
 
     color: #666666;
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 22px;
+
     line-height: 26px;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.6px;
 }
 
@@ -654,11 +655,7 @@ a, pre, h1, h2, h3, h4, h5, h6, ul, ol, li, .btn {
 .btn:hover {
     color:#00e5fe;
 }
-.navbar-light .navbar-brand {
-    color: #f8f9fa;
-    font-size: 1.8rem;
-    letter-spacing: 0.2rem;
-}
+
 .navbar-light .navbar-brand:hover {
     color:#00e5fe;
     font-size: 1.8rem;
@@ -670,6 +667,7 @@ a, pre, h1, h2, h3, h4, h5, h6, ul, ol, li, .btn {
     color: #f8f9fa;
     font-size: 1.3rem;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
     color:#00e5fe;
     font-size: 1.3rem;
@@ -689,7 +687,7 @@ blockquote {
     color: #212529 !important;
 }
 img {
-    opacity: 1;
+    opacity: .75;
     transition: opacity .5s ease-in-out;
 }
 img:hover {
@@ -697,8 +695,6 @@ img:hover {
 }
 
 .btn-outline1 {
-   
-   
     background-color: #212529;
     border-color:#00e5fe;
     color:#00e5fe;
@@ -706,10 +702,7 @@ img:hover {
     letter-spacing: 0.05em;
     border-radius: 0;
   }
-.post-meta{
-    font-weight: 600;
-    letter-spacing: 0.4rem;
-}
+
 
 /* CARDS  ----------------------------------------------------------- */
 .card{
@@ -728,6 +721,16 @@ img:hover {
     color: white;
 }
 
-.btn-twitter{
-    font-size: 1.5rem;
+.container{
+    width:90%;
+}
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+.post-meta{
+    font-weight: 500;
+    letter-spacing: 0.2rem;
 }

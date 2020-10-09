@@ -516,7 +516,7 @@ footer .copyright {
         color: #323232;
         cursor: pointer;
     }
-
+    
     #nav ul {
         background-color: #343638;
         width: 100%;
@@ -628,6 +628,13 @@ footer .copyright {
 
     .example-image-link:nth-of-type(even) {
         margin-right: 0px;
+    }
+    
+    h3{
+        font-size: 1.25rem;
+    }
+    h5{
+        font-size: 1rem;
     }
 }
 

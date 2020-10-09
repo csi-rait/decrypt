@@ -734,3 +734,9 @@ img:hover {
     font-weight: 500;
     letter-spacing: 0.2rem;
 }
+
+.pageimage{
+    width: 48px;
+    height: 48px;
+    border-radius:50%;
+}

@@ -9,25 +9,24 @@
 <article>
 
 	<div class="container">
-		<div class="row">
-			<div >
-				<div>
+		<div class="row justify-content-center">
+			
+				<div class="col-lg-9">
 					<h2> <?php echo $page->title() ?></h2>
 					<h3 class="subheading hidden"><?php echo $page->description() ?></h3>
-					<!--<p class="meta"><?php echo $language->get('Posted by').' '.$page->user('nickname').' - '.$page->date() ?></p> in case we need it-->
-					<!-- Date posted -->
-										<?php if (!$page->isStatic() && !$url->notFound()): ?>
-										<span class="author-name"><h5>Posted By <a style="color:cyan;"href="#0"><?php echo $page->user('nickname') ?></a> </h5></span>
+						<!--<?php echo $language->get('Posted by').' '.$page->user('nickname').' - '.$page->date() ?></p>
+						<?php if (!$page->isStatic() && !$url->notFound()): ?>-->
+						<span class="author-name"><h5>Posted By <a style="color:cyan;"href="#0"><?php echo $page->user('nickname') ?></a> </h5></span>
 						<p class="post-meta"><?php echo $page->date();?></p>
 					<?php endif ?>
 				</div>
-			</div>
+			
 		</div>
 	</div>
 
 <div class="container">
-	<div class="row">
-		<div>
+	<div class="row justify-content-center">
+		<div class="col-lg-8">
             <!-- Load Bludit Plugins: Page Begin -->
             <?php Theme::plugins('pageBegin'); ?>
 

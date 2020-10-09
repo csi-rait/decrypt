@@ -25,10 +25,10 @@ html {
 body {
     margin-bottom: 60px;
     /* Margin bottom for footer height */
-
+    background: #212529;
     color: #666666;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
+    font-family:'Raleway', sans-serif;
+    font-size: 14px;
 
     line-height: 26px;
     font-weight: 500;
@@ -236,7 +236,7 @@ header .instagram-header-icon {
     padding:2% 10% 10% 10%;
     height:200px;
     
-    background: url(../img/background-hero.jpg) center;
+    /* background: url(../img/background-hero.jpg) center; */
     min-height: 100%;
     background-color: #c7c7c7;
     background-size: 100%;
@@ -264,7 +264,7 @@ p.hero-text {
     width: 100%;
     height: 500px;
     background-color: #f3f3f3;
-    background-image: url('https://images-assets.nasa.gov/image/PIA13845/PIA13845~orig.jpg');
+    /* background-image: url('https://images-assets.nasa.gov/image/PIA13845/PIA13845~orig.jpg'); */
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -274,7 +274,7 @@ p.hero-text {
     width: 100%;
     height: 350px;
     background-color: #f3f3f3;
-    background-image: url('../img/hero-image-menu.jpg');
+    /* background-image: url('../img/hero-image-menu.jpg'); */
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -284,7 +284,7 @@ p.hero-text {
     width: 100%;
     height: 350px;
     background-color: #f3f3f3;
-    background-image: url('../img/hero-image-gallery.jpg');
+    /* background-image: url('../img/hero-image-gallery.jpg'); */
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -294,7 +294,7 @@ p.hero-text {
     width: 100%;
     height: 350px;
     background-color: #f3f3f3;
-    background-image: url('../img/hero-image-contact.jpg');
+    /* git */
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -637,9 +637,7 @@ footer .copyright {
 /* Dark mode
 -------------------------------------------------------------- */
 
-body {
-    background: #212529;
-}
+
 
 p{
     color:#fff;
@@ -686,10 +684,10 @@ blockquote {
 .fa-inverse {
     color: #212529 !important;
 }
-img {
+/* img {
     opacity: .75;
     transition: opacity .5s ease-in-out;
-}
+} */
 img:hover {
     opacity: 1;
 }

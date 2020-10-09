@@ -236,7 +236,7 @@ header .instagram-header-icon {
     padding:2% 10% 10% 10%;
     height:200px;
     
-    /* background: url(../img/background-hero.jpg) center; */
+    background: url(../img/background-hero.jpg) center;
     min-height: 100%;
     background-color: #c7c7c7;
     background-size: 100%;

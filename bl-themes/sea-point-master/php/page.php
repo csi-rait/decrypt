@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			
-				<div class="col-lg-10">
+				<div class="col-lg-8">
 					<h2> <?php echo $page->title() ?></h2>
 					<h3 class="subheading hidden"><?php echo $page->description() ?></h3>
 						<!--<?php echo $language->get('Posted by').' '.$page->user('nickname').' - '.$page->date() ?></p>

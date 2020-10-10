@@ -62,7 +62,7 @@ hr {
 /* Typography
 -------------------------------------------------------------- */
 p {
-    color: #666666;
+    color: #ffffff;
     margin-bottom: 34px;
     font-size: 17px;
     line-height: 26px;
@@ -87,6 +87,11 @@ article{
     padding-top: 5rem;
     padding-left: 10rem;
     padding-right: 10rem;
+}
+
+#article-img img{
+    height: auto;
+    width: 100%;
 }
 
 ul, ol, li {
@@ -654,7 +659,7 @@ textarea {
     color: #999999;
     border-color: #999999;
 }
-a, pre, h1, h2, h3, h4, h5, h6, ul, ol, li, .btn {
+pre, h1, h2, h3, h4, h5, h6, ul, ol, li, .btn {
     color: white;
 }
 .btn:hover {
@@ -691,10 +696,10 @@ blockquote {
 .fa-inverse {
     color: #212529 !important;
 }
-/* img {
-    opacity: .75;
+img {
+    opacity: 1;
     transition: opacity .5s ease-in-out;
-} */
+}
 img:hover {
     opacity: 1;
 }

@@ -12,6 +12,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $site->url() ?>"><?php echo $language->get('Home') ?></a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <?php include(THEME_DIR_PHP.'sidebar.php') ?>
+                    </div>
+                </li>
+
                 <?php
     foreach ($staticContent as $staticPage) {
         echo '<li class="nav-item">';
@@ -19,6 +28,7 @@
         echo '</li>';
     }
                 ?>
+
             </ul>
         </div>
     </div>

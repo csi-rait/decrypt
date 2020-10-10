@@ -25,12 +25,13 @@ html {
 body {
     margin-bottom: 60px;
     /* Margin bottom for footer height */
-
+    background: #212529;
     color: #666666;
-    font-family: 'Raleway', sans-serif;
+    font-family:'Raleway', sans-serif;
     font-size: 14px;
+
     line-height: 26px;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.6px;
 }
 
@@ -263,7 +264,7 @@ p.hero-text {
     width: 100%;
     height: 500px;
     background-color: #f3f3f3;
-    background-image: url('https://images-assets.nasa.gov/image/PIA13845/PIA13845~orig.jpg');
+    /* background-image: url('https://images-assets.nasa.gov/image/PIA13845/PIA13845~orig.jpg'); */
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -273,7 +274,7 @@ p.hero-text {
     width: 100%;
     height: 350px;
     background-color: #f3f3f3;
-    background-image: url('../img/hero-image-menu.jpg');
+    /* background-image: url('../img/hero-image-menu.jpg'); */
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -283,7 +284,7 @@ p.hero-text {
     width: 100%;
     height: 350px;
     background-color: #f3f3f3;
-    background-image: url('../img/hero-image-gallery.jpg');
+    /* background-image: url('../img/hero-image-gallery.jpg'); */
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -293,7 +294,7 @@ p.hero-text {
     width: 100%;
     height: 350px;
     background-color: #f3f3f3;
-    background-image: url('../img/hero-image-contact.jpg');
+    /* git */
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -515,7 +516,7 @@ footer .copyright {
         color: #323232;
         cursor: pointer;
     }
-
+    
     #nav ul {
         background-color: #343638;
         width: 100%;
@@ -628,6 +629,13 @@ footer .copyright {
     .example-image-link:nth-of-type(even) {
         margin-right: 0px;
     }
+    
+    h3{
+        font-size: 1.25rem;
+    }
+    h5{
+        font-size: 1rem;
+    }
 }
 
 /*
@@ -636,9 +644,7 @@ footer .copyright {
 /* Dark mode
 -------------------------------------------------------------- */
 
-body {
-    background: #212529;
-}
+
 
 p{
     color:#fff;
@@ -654,11 +660,7 @@ a, pre, h1, h2, h3, h4, h5, h6, ul, ol, li, .btn {
 .btn:hover {
     color:#00e5fe;
 }
-.navbar-light .navbar-brand {
-    color: #f8f9fa;
-    font-size: 1.8rem;
-    letter-spacing: 0.2rem;
-}
+
 .navbar-light .navbar-brand:hover {
     color:#00e5fe;
     font-size: 1.8rem;
@@ -670,6 +672,7 @@ a, pre, h1, h2, h3, h4, h5, h6, ul, ol, li, .btn {
     color: #f8f9fa;
     font-size: 1.3rem;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
     color:#00e5fe;
     font-size: 1.3rem;
@@ -688,17 +691,15 @@ blockquote {
 .fa-inverse {
     color: #212529 !important;
 }
-img {
-    opacity: 1;
+/* img {
+    opacity: .75;
     transition: opacity .5s ease-in-out;
-}
+} */
 img:hover {
     opacity: 1;
 }
 
 .btn-outline1 {
-   
-   
     background-color: #212529;
     border-color:#00e5fe;
     color:#00e5fe;
@@ -706,10 +707,7 @@ img:hover {
     letter-spacing: 0.05em;
     border-radius: 0;
   }
-.post-meta{
-    font-weight: 600;
-    letter-spacing: 0.4rem;
-}
+
 
 /* CARDS  ----------------------------------------------------------- */
 .card{
@@ -728,6 +726,19 @@ img:hover {
     color: white;
 }
 
-.btn-twitter{
-    font-size: 1.5rem;
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+.post-meta{
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+
+.pageimage{
+    width: 48px;
+    height: 48px;
+    border-radius:50%;
 }

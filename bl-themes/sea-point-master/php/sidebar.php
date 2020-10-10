@@ -1,0 +1,2 @@
+<?php Theme::plugins('siteSidebar') ?>
+

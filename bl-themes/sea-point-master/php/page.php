@@ -24,7 +24,7 @@
 		</div>
 	</div>
 
-<div class="container">
+<div class="container" id="article-img">
 	<div class="row justify-content-center">
 		<div class="col-lg-10">
             <!-- Load Bludit Plugins: Page Begin -->

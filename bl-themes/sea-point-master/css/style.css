@@ -76,6 +76,7 @@ p {
 
 article h2 {
     color:#00e5fe;
+    font-size: 4rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -598,6 +599,10 @@ footer .copyright {
         height: 300px;
     }
 
+    p.hero-text {
+        font-size: 1rem;
+    }
+
     /* --------------------------------------------------------------
 /* Main Responsive
 -------------------------------------------------------------- */
@@ -610,8 +615,12 @@ footer .copyright {
 -------------------------------------------------------------- */
     article{
         padding-top: 3rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    article h2{
+        font-size: 3rem;
     }
 
     /* --------------------------------------------------------------
@@ -717,7 +726,7 @@ img:hover {
 /* CARDS  ----------------------------------------------------------- */
 .card{
     background-color: #212529;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 .card-img-top{
     border-radius: 50%;

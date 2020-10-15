@@ -20,8 +20,9 @@
 						<p class="post-meta"><?php echo $page->date();?></p>
 						<?php endif ?>-->
 				<?php if (!$page->isStatic() && !$url->notFound()): ?>
+			
 				<div class="d-flex ">
-					<div class="p-2"><img class="rounded-circle" src="bl-content\uploads\profiles\admin.png" width="40"></div>
+					<div class="p-2"><img class="rounded-circle" src="<?php echo '/bl-content/uploads/profiles/'.$page->username().'.png' ?>" width="40" ></div>
 					<div class="p-2">
 						<span class="author-name" style="color:cyan;"><?php echo $page->user('nickname') ?></span><br>
 						<span class="post-meta"><?php echo $page->date();?></span>
